@@ -35,7 +35,7 @@ export default function Footer() {
                 <div>
                     <h4 className="font-bold mb-4 text-[#94a84a]">Get in Touch</h4>
                     <p className="text-gray-400 text-sm mb-2">Questions? Email us anytime.</p>
-                    <p className="text-xl font-bold">avarolandscape@gmail.com</p>
+                    <p className="text-xl font-bold"></p>
                 </div>
             </div>
             <div className="max-w-6xl mx-auto pt-10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
