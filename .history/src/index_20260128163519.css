@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+html,
+body {
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    font-size: 16px !important;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  /* Since we have 3 identical spans, moving 1/3 of the way (-33.33%) 
+     creates a perfect loop back to the start. */
+  100% { transform: translateX(-33.33%); }
+}
+
+.animate-marquee-custom {
+  display: flex;
+  width: max-content;
+  /* 40s is a steady, professional pace for a fixed header */
+  animation: marquee 40s linear infinite;
+}
+
+.marquee-container {
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+  /* This prevents the rest of the site from shifting if the scrollbar appears */
+  width: 100vw; 
+}

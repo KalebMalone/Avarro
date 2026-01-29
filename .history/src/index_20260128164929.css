@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+html,
+body {
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    font-size: 16px !important;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee-custom {
+    display: flex;
+    width: max-content;
+    /* This prevents stretching */
+    animation: marquee 30s linear infinite;
+}
+
+.marquee-container {
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
+}

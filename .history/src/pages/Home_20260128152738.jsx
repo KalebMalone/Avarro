@@ -1,0 +1,44 @@
+import Hero from "../components/Hero";
+import Services from "../components/Services";
+import { Link } from "react-router-dom";
+
+export default function Home() {
+    return (
+        <div className="bg-white">
+            <Hero />
+
+            {/* Services Section with Background Image */}
+            <section className="relative py-24 px-6 bg-[url('https://images.unsplash.com/photo-1558905619-17142436d400?auto=format&fit=crop&w=1950&q=80')] bg-fixed bg-cover bg-center">
+                {/* Overlay to make content pop */}
+                <div className="absolute inset-0 bg-white/95"></div>
+
+                <div className="relative max-w-6xl mx-auto">
+                    <h2 className="text-4xl font-extrabold text-center mb-16 text-[#1a4332]">
+                        Our Services
+                    </h2>
+                    <Services />
+
+                    <div className="text-center mt-14">
+                        <Link
+                            to="/contact"
+                            className="inline-block bg-[#94a84a] hover:bg-[#1a4332] text-white px-10 py-4 rounded-lg font-bold text-xl shadow-xl no-underline transition active:scale-95"
+                        >
+                            Get Started Today
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* Bottom Branding Section */}
+            <section className="py-24 bg-[#1a4332] text-white text-center">
+                <h2 className="text-4xl font-extrabold mb-6">
+                    Why Choose Avarro?
+                </h2>
+                <p className="text-xl opacity-90 max-w-3xl mx-auto px-6 leading-relaxed">
+                    Locally owned. Detail-focused. Built on reliability and results. 
+                    We treat every yard as if it were our own.
+                </p>
+            </section>
+        </div>
+    );
+}

@@ -1,0 +1,40 @@
+import Hero from "../components/Hero";
+import Services from "../components/Services";
+import { Link } from "react-router-dom";
+
+export default function Home() {
+    return (
+        <div className="bg-gray-50">
+            <Hero />
+
+            <section className="py-24 px-6">
+                <h2 className="text-4xl font-extrabold text-center mb-16 text-[#1a4332]">
+                    Our Services
+                </h2>
+                <div className="max-w-6xl mx-auto">
+                    <Services />
+                </div>
+
+                <div className="text-center mt-14">
+                    <Link
+                        to="/contact"
+                        className="inline-block bg-[#94a84a] hover:bg-[#1a4332] text-white px-10 py-4 rounded-lg font-bold text-xl shadow-xl no-underline transition active:scale-95"
+                    >
+                        Get Started Today
+                    </Link>
+                </div>
+            </section>
+
+            {/* Bottom Section - No bottom padding so it touches the footer */}
+            <section className="pt-24 pb-16 bg-[#1a4332] text-white text-center">
+                <h2 className="text-4xl font-extrabold mb-6">
+                    Why Choose Avarro?
+                </h2>
+                <p className="text-xl opacity-90 max-w-3xl mx-auto px-6 leading-relaxed">
+                    Locally owned. Detail-focused. Built on reliability and results. 
+                    We treat every yard as if it were our own.
+                </p>
+            </section>
+        </div>
+    );
+}
