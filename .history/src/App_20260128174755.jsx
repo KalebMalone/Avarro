@@ -7,11 +7,9 @@ import About from "./pages/About";
 import ServicesPage from "./components/Services";
 import Contact from "./pages/Contact";
 import { Analytics } from "@vercel/analytics/react";
-
 function App() {
     return (
         <Router>
-            <Analytics />
             <ScrollToTop />
             <Navbar />
             <div className="fixed top-[64px] left-0 w-full z-[999] bg-[#94a84a] text-white py-2 shadow-xl marquee-container border-b border-black/10">
