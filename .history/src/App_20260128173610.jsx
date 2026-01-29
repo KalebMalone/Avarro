@@ -27,6 +27,8 @@ function App() {
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
+
+            {/* --- PERMANENT BOTTOM SECTION --- */}
             <Footer />
         </Router>
     );

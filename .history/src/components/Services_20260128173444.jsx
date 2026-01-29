@@ -59,6 +59,7 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+            {/* Specialized Services - Weeds & Debris */}
             <section className="py-20 bg-gray-50 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -85,6 +86,8 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Visual Call to Action */}
                         <div className="bg-[#1a4332] rounded-3xl p-10 text-white text-center">
                             <h3 className="text-2xl font-bold mb-4 text-white">Need a custom quote?</h3>
                             <p className="opacity-80 mb-8 leading-relaxed">
@@ -97,6 +100,8 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            {/* Satisfaction Guarantee */}
             <section className="py-20 text-center px-6">
                 <div className="max-w-3xl mx-auto bg-[#94a84a]/10 p-12 rounded-3xl border-2 border-dashed border-[#94a84a]">
                     <h2 className="text-3xl font-bold text-[#1a4332] mb-4">The Avarro Guarantee</h2>

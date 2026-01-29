@@ -28,18 +28,23 @@ export default function ServicesPage() {
     return (
         <div className="bg-white">
             <div className="h-[104px]"></div>
+
+            {/* Header */}
             <section className="py-24 bg-[#1a4332] text-center text-white">
                 <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Our Services</h1>
                 <p className="text-lg opacity-80 max-w-2xl mx-auto px-6">
                     Professional lawn maintenance tailored for the 2026 season.
                 </p>
             </section>
+
+            {/* The Big Three - Featured Grid */}
             <section className="py-20 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-bold text-[#1a4332]">The Weekly Standard</h2>
                         <div className="w-20 h-1 bg-[#94a84a] mx-auto mt-4"></div>
                     </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {mainServices.map((s, i) => (
                             <div key={i} className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl hover:-translate-y-2 transition-all">
@@ -59,6 +64,8 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            {/* Specialized Services - Weeds & Debris */}
             <section className="py-20 bg-gray-50 px-6">
                 <div className="max-w-6xl mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -85,6 +92,8 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Visual Call to Action */}
                         <div className="bg-[#1a4332] rounded-3xl p-10 text-white text-center">
                             <h3 className="text-2xl font-bold mb-4 text-white">Need a custom quote?</h3>
                             <p className="opacity-80 mb-8 leading-relaxed">
@@ -97,6 +106,8 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            {/* Satisfaction Guarantee */}
             <section className="py-20 text-center px-6">
                 <div className="max-w-3xl mx-auto bg-[#94a84a]/10 p-12 rounded-3xl border-2 border-dashed border-[#94a84a]">
                     <h2 className="text-3xl font-bold text-[#1a4332] mb-4">The Avarro Guarantee</h2>

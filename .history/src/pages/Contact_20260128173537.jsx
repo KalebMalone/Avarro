@@ -81,6 +81,7 @@ export default function Contact() {
                             </p>
                         </div>
                     </div>
+                    {/* The Form Side */}
                     <div className="bg-white p-8 md:p-10 rounded-3xl shadow-2xl border border-gray-100">
                         <form ref={form} onSubmit={sendEmail} className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

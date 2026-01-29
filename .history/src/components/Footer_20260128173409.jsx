@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // Don't forget this import!
 
 export default function Footer() {
     return (
@@ -38,6 +38,8 @@ export default function Footer() {
                     <p className="text-xl font-bold">(555) 123-4567</p>
                 </div>
             </div>
+
+            {/* Bottom Bar - Fixed 'flex-row' typo */}
             <div className="max-w-6xl mx-auto pt-10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
                 <p>© 2026 Avarro Landscaping. All Rights Reserved.</p>
                 <div className="flex space-x-6 mt-4 md:mt-0">

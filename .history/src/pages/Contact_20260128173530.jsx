@@ -63,6 +63,7 @@ export default function Contact() {
                                 <p className="text-xl font-bold text-[#1a4332]">(555) 123-4444</p>
                             </div>
                         </div>
+                        {/* Email Box */}
                         <div className="group bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center space-x-6 hover:shadow-md transition-all">
                             <div className="bg-[#1a4332] text-white p-4 rounded-xl text-2xl group-hover:scale-110 transition-transform">
                                 ✉️
@@ -72,6 +73,8 @@ export default function Contact() {
                                 <p className="text-xl font-bold text-[#1a4332]">avarolandscape@gmail.com</p>
                             </div>
                         </div>
+
+                        {/* 2026 Season Badge */}
                         <div className="bg-[#94a84a]/10 p-8 rounded-2xl border-l-4 border-[#94a84a]">
                             <h4 className="font-bold text-[#1a4332] mb-2 flex items-center">
                                 <span className="mr-2">🚀</span> 2026 Route Notice
@@ -81,6 +84,8 @@ export default function Contact() {
                             </p>
                         </div>
                     </div>
+
+                    {/* The Form Side */}
                     <div className="bg-white p-8 md:p-10 rounded-3xl shadow-2xl border border-gray-100">
                         <form ref={form} onSubmit={sendEmail} className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

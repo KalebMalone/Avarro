@@ -97,6 +97,8 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
+
+            {/* Satisfaction Guarantee */}
             <section className="py-20 text-center px-6">
                 <div className="max-w-3xl mx-auto bg-[#94a84a]/10 p-12 rounded-3xl border-2 border-dashed border-[#94a84a]">
                     <h2 className="text-3xl font-bold text-[#1a4332] mb-4">The Avarro Guarantee</h2>

@@ -65,6 +65,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
+            {/* Value Section */}
             <section className="py-20 bg-[#1a4332] text-white">
                 <div className="max-w-5xl mx-auto px-6 text-center">
                     <h2 className="text-3xl font-bold mb-12 text-white">The Three Pillars of Avarro</h2>

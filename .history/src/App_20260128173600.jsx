@@ -11,7 +11,10 @@ function App() {
     return (
         <Router>
             <ScrollToTop />
+
+            {/* --- PERMANENT TOP SECTION --- */}
             <Navbar />
+
             <div className="fixed top-[64px] left-0 w-full z-[999] bg-[#94a84a] text-white py-2 shadow-xl marquee-container border-b border-black/10">
                 <div className="animate-marquee-custom">
                     {[1, 2, 3].map((i) => (
@@ -21,12 +24,16 @@ function App() {
                     ))}
                 </div>
             </div>
+            {/* ------------------------------ */}
+
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
+
+            {/* --- PERMANENT BOTTOM SECTION --- */}
             <Footer />
         </Router>
     );
