@@ -9,27 +9,17 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
         setLoading(true);
-
-        // Verified IDs from your screenshots:
-        // Service ID: service_xxoqx6m
-        // Template ID: template_vzcvfnc
-        // Public Key: D0V8ORrzpKUX8B70_
-
-        emailjs.sendForm(
-            'service_xxoqx6m', 
-            'template_vzcvfnc', 
-            form.current, 
-            'D0V8ORrzpKUX8B70_'
-        )
-        .then((result) => {
-            console.log("SUCCESS!", result.status, result.text);
-            setIsSubmitted(true);
-            setLoading(false);
-        }, (error) => {
-            console.error("FAILED...", error);
-            alert("Failed to send. Error: " + error.text);
-            setLoading(false);
-        });
+template_vzcvfnc
+        // Updated Template ID to match your screenshot URL (xch55k6)
+        emailjs.sendForm('service_xxoqx6m', 'xch55k6', form.current, 'D0V8ORrzpKUX8B70_')
+            .then((result) => {
+                setIsSubmitted(true);
+                setLoading(false);
+            }, (error) => {
+                console.error("EmailJS Error:", error.text);
+                alert("Something went wrong. Please try again or call us!");
+                setLoading(false);
+            });
     };
 
     if (isSubmitted) {
@@ -101,6 +91,7 @@ export default function Contact() {
                             
                             <div>
                                 <label className="block text-sm font-bold text-gray-700 mb-2">Email (for reply)</label>
+                                {/* Changed name to 'email' to match your 'Reply To' field in EmailJS */}
                                 <input name="email" required type="email" placeholder="john@example.com" className="w-full px-4 py-3 rounded-xl border border-gray-200 outline-none focus:ring-2 focus:ring-[#94a84a] transition-all bg-gray-50 focus:bg-white" />
                             </div>
 
