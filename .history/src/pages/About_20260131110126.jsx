@@ -23,7 +23,7 @@ export default function About() {
                         </div>
                         <div className="absolute -bottom-6 -right-6 bg-[#94a84a] text-white p-8 rounded-xl shadow-xl hidden md:block">
                             <p className="text-2xl font-bold">2026</p>
-                            <p className="text-sm uppercase tracking-widest">Est. Season</p>
+                            <p className="text-sm uppercase tracking-widest">Est. 2026</p>
                         </div>
                     </div>
                     <div className="space-y-8">

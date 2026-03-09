@@ -67,7 +67,7 @@ export default function About() {
             </section>
             <section className="py-20 bg-[#1a4332] text-white">
                 <div className="max-w-5xl mx-auto px-6 text-center">
-                    <h2 className="text-3xl font-bold mb-12 text-white">The Three Pillars of Precision</h2>
+                    <h2 className="text-3xl font-bold mb-12 text-white">The Three Pillars of Avarro</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                         <div className="flex flex-col items-center">
                             <h4 className="text-[#94a84a] text-xl font-bold mb-2">Reliability</h4>

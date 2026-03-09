@@ -30,12 +30,12 @@ export default function About() {
                         <div>
                             <h2 className="text-3xl font-bold text-[#1a4332] mb-4 text-left">Local. Driven. Detailed.</h2>
                             <p className="text-gray-600 leading-relaxed text-lg text-left">
-                                Precision Landscaping was founded with a simple goal: to provide the most reliable lawn care service in the area. We noticed that many big companies rush through jobs, leaving messy edges and missed weeds. 
+                                Avarro Landscaping was founded with a simple goal: to provide the most reliable lawn care service in the area. We noticed that many big companies rush through jobs, leaving messy edges and missed weeds. 
                             </p>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#94a84a] text-left">
                             <h4 className="font-bold text-[#1a4332] mb-2 italic text-left">"We treat every yard as if it were our own."</h4>
-                            <p className="text-gray-600 text-sm italic">— The Precision Mission</p>
+                            <p className="text-gray-600 text-sm italic">— The Avarro Mission</p>
                         </div>
                         <div className="space-y-4 text-left">
                             <h3 className="text-xl font-bold text-[#1a4332] text-left">Why choose a new local business?</h3>
@@ -67,7 +67,7 @@ export default function About() {
             </section>
             <section className="py-20 bg-[#1a4332] text-white">
                 <div className="max-w-5xl mx-auto px-6 text-center">
-                    <h2 className="text-3xl font-bold mb-12 text-white">The Three Pillars of Precision</h2>
+                    <h2 className="text-3xl font-bold mb-12 text-white">The Three Pillars of Avarro</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                         <div className="flex flex-col items-center">
                             <h4 className="text-[#94a84a] text-xl font-bold mb-2">Reliability</h4>

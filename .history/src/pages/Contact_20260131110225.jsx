@@ -60,7 +60,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest text-gray-400 font-bold">Call or Text</h4>
-                                <p className="text-xl font-bold text-[#1a4332]">(N/A)</p>
+                                <p className="text-xl font-bold text-[#1a4332]">(555) 123-4444</p>
                             </div>
                         </div>
                         <div className="group bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-center space-x-6 hover:shadow-md transition-all">
@@ -69,7 +69,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest text-gray-400 font-bold">Email Us</h4>
-                                <p className="text-xl font-bold text-[#1a4332]">precisionlandscapeoregon@gmail.com</p>
+                                <p className="text-xl font-bold text-[#1a4332]">precision@gmail.com</p>
                             </div>
                         </div>
                         <div className="bg-[#94a84a]/10 p-8 rounded-2xl border-l-4 border-[#94a84a]">

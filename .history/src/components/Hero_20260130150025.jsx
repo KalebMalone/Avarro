@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="h-full flex items-center bg-gradient-to-t from-black/70 via-black/20 to-transparent">
                 <div className="max-w-4xl mx-auto px-6 text-center text-white">
                     <h1 className="text-5xl md:text-7xl font-extrabold mb-6 drop-shadow-2xl">
-                        Precision Landscape
+                        Precision Landscaping
                     </h1>
                     <p className="text-xl md:text-2xl mb-10 opacity-90 font-medium">
                         Professional Lawn Care & Maintenance
