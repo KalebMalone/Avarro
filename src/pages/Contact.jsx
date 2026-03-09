@@ -69,7 +69,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest text-gray-400 font-bold">Email Us</h4>
-                                <p className="text-xl font-bold text-[#1a4332]">precisionlandscapeoregon@gmail.com</p>
+                                <p className="text-xl font-bold text-[#1a4332]">precisionlandscapeor@gmail.com</p>
                             </div>
                         </div>
                         <div className="bg-[#94a84a]/10 p-8 rounded-2xl border-l-4 border-[#94a84a]">
