@@ -73,7 +73,7 @@ export default function Contact() {
                             <div className="bg-[#94a84a] text-white p-4 rounded-xl text-2xl group-hover:scale-110 transition-transform">📞</div>
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest text-gray-400 font-bold">Call or Text</h4>
-                                <p className="text-xl font-bold text-[#1a4332]">(541) 640-2515</p>
+                                <p className="text-xl font-bold text-[#1a4332]">((541) 640-2515)</p>
                             </div>
                         </div>
 
